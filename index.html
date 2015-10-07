@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="description" content="Bootstrap - 简洁、直观、强悍、移动设备优先的前端开发框架，让web开发更迅速、简单。">
+<meta name="keywords" content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+<meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+<meta name="author" content="译者：王赛 <wangsai@bootcss.com>">
+<title> SLK </title>
+<!--重置默认样式-->
+<link href="./css/reset.css" rel="stylesheet">
+<link href="./css/bootstrap.css" rel="stylesheet">
+<!--响应式菜单样式表-->
+<link rel="stylesheet" href="./css/responsive-nav.css">
+<!--添加自定义css-->
+<link href="./css/global.css" rel="stylesheet">
+
+
+<!--[if lt IE 9]>
+  <script src="http://v3.bootcss.com/assets/js/ie-emulation-modes-warning.js"></script>
+<![endif]-->
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+  <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+
+    
+    
+
+
+<!-- Favicons -->
+<link rel="apple-touch-icon" href="http://v3.bootcss.com/apple-touch-icon.png">
+<link rel="icon" href="http://v3.bootcss.com/favicon.ico">
+
+</head>
+
+<!--顶部导航 代码开始-->
+<div class="slk-site-nav">
+  <!--居中内容部分，响应式-->
+  <div class="slk-container">
+    <div class="slk-row">
+      <div class="col-xs-12">
+        <ul class="list-unstyled list-inline slk-sn-bd">
+          <li class="slk-home-logo">
+            <span>SLK欢迎logo</span>
+          </li>
+          <li class="slk-sn-login">
+            登陆
+          </li>
+          <li class="slk-sn-register">
+            <a href="#">注册</a>
+          </li>
+          <li class="slk-sn-quick-menu">
+            前沿科技
+          </li>
+        </ul>
+      </div>  
+    </div>
+  </div>
+  <!--居中内容部分，响应式/-->
+</div>
+<!--顶部导航 代码结束-->
+
+<!--头部 代码开始-->
+<header class="container slk-header-layout">
+  <div class="row">
+    <div class="col-xs-12 slk-header-con">
+      <h2 class="col-xs-4 slk-logo">
+        <span class="slogo"></span>
+      </h2>
+      <div class="col-xs-8">
+        <div class="slk-search">
+<form class="slk-search-form">
+    <div class="slk-search-form-area">
+      <input type="text" class="slk-search-common-input" id="exampleInputAmount" placeholder="Amount">
+    </div>
+    <button type="submit" class="slk-search-btn">搜索</button>
+</form>  
+        </div>
+      </div>
+    </div>
+  </div>  
+</header>
+<!--头部 代码结束-->  
+
+<!--主导航 代码开始-->
+<nav class="container slk-main-nav">
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="slk-main-container">
+        <ul class="nav nav-pills">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="#">Profile</a></li>
+          <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+      </div>      
+    </div>
+  </div>
+</nav>
+<!--主导航 代码结束-->
+
+<!--分类导航 和 内容详情 代码开始-->
+<div class="container-fluid slk-category-menu">
+  <div class="row">
+    <div class="col-xs-12">
+      <!--分类导航-->
+      <div class="container slk-category-nav-container">
+        <div class="slk-category-menu-nav">
+          <h2 class="slk-menu-title">商品服务分类</h2>
+          <ul class="slk-menu-nav-container clearfix">
+            <li class="slk-menu-nav">
+              <span class="slk-menu-nav-icon glyphicon glyphicon-align-left" aria-hidden="true"></span>
+              五金
+              <i class="slk-market-nav-arrow"></i>
+            </li>
+            <li class="slk-menu-nav slk-menu-nav-selected slk-menu-nav-hover">
+              家电
+              <i class="slk-menu-nav-arrow"></i>
+            </li>
+            <li class="slk-menu-nav">
+              家电
+              <i class="slk-menu-nav-arrow"></i>
+            </li>
+            <li class="slk-menu-nav">
+              家电
+              <i class="slk-menu-nav-arrow"></i>
+            </li>
+            <li class="slk-menu-nav slk-menu-nav-selected">
+              家电
+              <i class="slk-menu-nav-arrow"></i>
+            </li>
+            <li class="slk-menu-nav">
+              家电
+              <i class="slk-menu-nav-arrow"></i>
+            </li>
+            <li class="slk-menu-nav">
+              家电
+              <i class="slk-menu-nav-arrow"></i>
+            </li>
+            <li class="slk-menu-nav">
+              家电
+              <i class="slk-menu-nav-arrow"></i>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--内容详情-->
+      <div class="slk-category-menu-content">
+        <!--  一类一个div  -->
+        <div class="slk-category-menu-pannel">
+          <!-- 轮播图片 开始 -->
+          <div class="slk-category-pannel-slide">
+            <div class="slk-pannel-slide-content">
+              <div class="slk-slide-content" style="position: absolute; z-index: 1; opacity: 1; display: block; background: rgb(126, 40, 254);" >
+                <div class="slk-banner-container">
+                  <a href="#">
+                    <b style="left: auto; right: 190px; background: url(https://img.alicdn.com/tps/i1/TB1yw6RHpXXXXa0XpXX2HMYQVXX-405-480.png) 50% 50% no-repeat;" class="j_TextBanner text-banner"></b>
+                    <img class="slk-main-banner" src="//img.alicdn.com/tps/i3/TB1QSYKHpXXXXbSXVXXgalVIXXX-810-480.jpg" width="810" height="480" alt="天猫母婴">
+                  </a>
+                </div>
+              </div>
+              <!--可以继续添加几个轮播图片-->
+              <div class="slk-slide-content" style="display:none;">
+                <div class="slk-banner-content">
+                  <a href="#">
+                    <b style="left: auto; right: 190px; background: url(https://img.alicdn.com/tps/i1/TB1yw6RHpXXXXa0XpXX2HMYQVXX-405-480.png) 50% 50% no-repeat;" class="j_TextBanner text-banner"></b>
+                    <img class="slk-main-banner" src="//img.alicdn.com/tps/i3/TB1QSYKHpXXXXbSXVXXgalVIXXX-810-480.jpg" width="810" height="480" alt="天猫母婴">
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul class="slk-pannel-slide-nav">
+              <li>
+                1
+              </li>
+              <li class="slk-pannel-nav-selected">
+                2
+              </li>
+            </ul>
+          </div>
+          <!-- 分类下 细分 和其他显示内容 -->
+          <div class="slk-category-sub-pannel">
+            sdfsd
+          </div>
+          <div class="slk-small-banner">
+            <a href="#">
+              <img src="#">  
+            </a>
+            <b class="slk-banner-separator"></b>
+            <a href="#">
+              <img src="#">  
+            </a>
+          </div>
+        </div>
+        <!-- 可以继续添加  一类 一个 div-->
+        <!--  一类一个div  -->
+        <!-- 继续添加下一个-->
+      </div>
+    </div>
+  </div>
+</div>
+<!--分类导航 和 内容详情 代码结束-->
+
+<!--主内容 代码开始-->
+<div class="container slk-main-content-area">
+  <!--每一个模块单独设置一层-->
+  <!--精选品牌-->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="slk-brand-area">
+        <div class="slk-brand-title">
+          <a href="#" >热门品牌</a>
+        </div>
+        <div class="slk-brand-content clearfix">
+          <div class="slk-brand-first">
+            <a href="#">
+              <img src="#">
+            </a>
+          </div>
+          <div class="slk-brand-area-slide">
+            <ul class="slk-brand-area-nav">
+              <li class="selected">被选中的</li>
+              <li>没有被选中的</li>
+              <li>其他的分类</li>
+            </ul>
+            <ul class="slk-brand-area-content">
+              <!--每一个li都表示一批，通过点击上面的nav，更换-->
+              <li class="slk-bread-area-pannel">
+                <div class="slk-brand-wall-content">
+                  <p class="slk-brand-wall-pannel">
+                    <a href="#" class="slk-brand-item slk-item-row-0 slk-item-col-0">
+                      <img class="slk-brand-logo" src="#">
+                      <span class="slk-brand-subject-desc" title=""></span>
+                      <span class="slk-brand-status"></span>
+                      <span class="slk-brand-status-tip">关注</span>
+                    </a>
+                    <a href="#" class="slk-brand-item slk-item-row-2 slk-item-col-4">
+                      <img class="slk-brand-logo" src="#">
+                      <span class="slk-brand-subject-desc" title=""></span>
+                      <span class="slk-brand-status"></span>
+                      <span class="slk-brand-status-tip">关注</span>
+                    </a>
+                    <!-- 这里是内容列表，更换-->
+                  </p>
+                  <p class="slk-brand-wall-pannel">
+                    <!--每一个 p 都表示一批，通过点击 换一批 ，更换-->
+                  </p>
+                </div>
+              </li>
+              <li class="slk-bread-area-pannel hidden">
+                <!--与上一个一样的，通过点击  换一批  切换-->
+              </li>
+            </ul>
+            <a href="#" class="slk-brand-trigger-next">
+              <span class="slk-iconfont"></span>
+              换一批
+            </a>
+          </div>
+          <div class="slk-brand-last">
+            <!--右边的图片-->
+            <a href="#">
+              <img src="#">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--另外一层，一般一个分类栏目 单独一层-->
+  <div class="row">
+    <div class="col-xs-12">
+      <div class="slk-floor-item clearfix">
+        <div class="slk-grid-col-191">
+          <ul class="slk-floor-show-top" data-spm="20000055">
+            <li>
+            <a href="//nvzhuang.tmall.com/">
+            <span class="slk-floor-icon">㑙</span>
+            <span class="floor-key">女装</span>
+            </a>
+            </li>
+            <li>
+            <b class="slk-floor-title-separator"></b>
+            </li>
+            <li>
+            <a href="//neiyi.tmall.com/">
+            <span class="slk-floor-icon fp-iconfont"></span>
+            <span class="floor-key">内衣</span>
+            </a>
+            </li>
+          </ul>
+          <div class="slk-floor-show-middle">
+            sdf
+          </div>
+          <div class="slk-floor-show-boottom">
+            sdf
+          </div>
+        </div>
+        <div class="slk-floor-banner-container">
+          <div class="slk-grid-col-400">
+            <a href="#" class="slk-floor-banner slk-grid-row-422">
+              <img src="#">
+              ssdf
+            </a>
+          </div>
+          <div class="slk-grid-col-199">
+            <a class="slk-grid-row-255 slk-floor-banner">
+              <img src="#">  
+            <a/>
+            <a class="slk-grid-row-255 slk-floor-banner">
+              <img src="#">  
+            <a/>
+          </div>
+          <div class="slk-grid-col-199">
+            <a class="slk-grid-row-255 slk-floor-banner">
+              <img src="#">  
+            <a/>
+            <a class="slk-grid-row-255 slk-floor-banner">
+              <img src="#">  
+            <a/>
+          </div>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <!--另外一层，一般一个分类栏目 单独一层-->
+</div>
+
+
+
+
+
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="http://apps.bdimg.com/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<!--bootstrap-->
+<script src="./js/bootstrap.min.js"></script>
+
+<!--响应式菜单js-->
+<script src="./js/responsive-nav.js"></script>
+<script>
+  var navigation = responsiveNav(".nav-collapse", {
+    animate: true,                    // Boolean: Use CSS3 transitions, true or false
+    transition: 284,                  // Integer: Speed of the transition, in milliseconds
+    label: "Menu2",                    // String: Label for the navigation toggle
+    insert: "after",                  // String: Insert the toggle before or after the navigation
+    customToggle: "",                 // Selector: Specify the ID of a custom toggle
+    closeOnNavClick: false,           // Boolean: Close the navigation when one of the links are clicked
+    openPos: "relative",              // String: Position of the opened nav, relative or static
+    navClass: "nav-collapse",         // String: Default CSS class. If changed, you need to edit the CSS too!
+    navActiveClass: "js-nav-active",  // String: Class that is added to <html> element when nav is active
+    jsClass: "js",                    // String: 'JS enabled' class which is added to <html> element
+    init: function(){},               // Function: Init callback
+    open: function(){},               // Function: Open callback
+    close: function(){}               // Function: Close callback
+  });
+</script>
+<body>
+</body>
+</html>
